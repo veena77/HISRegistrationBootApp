@@ -1,0 +1,7 @@
+create sequence CANDIDATE_SEQ
+start with 1000000
+increment by 1
+maxvalue 9999999;
+
+INSERT INTO USER_ROLE VALUES('1','ADMIN');
+INSERT INTO USER_ROLE VALUES('2','CASE WORKER');
